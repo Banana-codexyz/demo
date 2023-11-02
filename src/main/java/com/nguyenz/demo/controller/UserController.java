@@ -11,10 +11,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     private UserService userService;
+
     @GetMapping("/testA")
     public String testA() {
         userService.testA();
         return "testA";
+    }
+
+    @GetMapping("/testB")
+    public String testB() {
+        return "test B";
     }
 
 }
