@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
 
-    @GetMapping("/getCode1")
-    public String getCode1() {
-        return "Code 1";
+    @GetMapping("/testB")
+    public String testB() {
+        return "test B";
     }
 
 }
