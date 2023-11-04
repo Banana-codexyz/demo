@@ -4,7 +4,12 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
+
     public void testA() {
         System.out.println("Nguyen test A");
+    }
+
+    public void testB() {
+        System.out.println("Khoi test B");
     }
 }
