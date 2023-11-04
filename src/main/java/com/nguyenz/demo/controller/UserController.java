@@ -20,6 +20,7 @@ public class UserController {
 
     @GetMapping("/testB")
     public String testB() {
+        userService.testB();
         return "test B";
     }
 
